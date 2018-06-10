@@ -1,0 +1,4 @@
+deb http://security.ubuntu.com/ubuntu/ xenial-security main universe restricted
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main universe restricted
+deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main universe restricted
+deb http://mirrors.aliyun.com/ubuntu/ xenial main universe restricted

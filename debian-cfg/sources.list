@@ -1,0 +1,24 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 8.2.0 _Jessie_ - Official i386 CD Binary-1 20150906-10:02]/ jessie main
+
+
+# Line commented out by installer because it failed to verify:
+#deb http://security.debian.org/ jessie/updates main
+# Line commented out by installer because it failed to verify:
+#deb-src http://security.debian.org/ jessie/updates main
+
+# jessie-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+# deb http://ftp.debian.org/debian/ jessie-updates main
+# deb-src http://ftp.debian.org/debian/ jessie-updates main
+ deb http://mirrors.aliyun.com/debian/ jessie main non-free contrib 
+ deb http://mirrors.aliyun.com/debian/ jessie-updates  main non-free contrib 
+ deb http://mirrors.aliyun.com/debian/ jessie-backports  main non-free contrib 
+ deb-src http://mirrors.aliyun.com/debian/ jessie main non-free contrib 
+ deb-src http://mirrors.aliyun.com/debian/ jessie-updates  main non-free contrib 
+ deb-src http://mirrors.aliyun.com/debian/ jessie-backports  main non-free contrib 
+

@@ -27,9 +27,9 @@ set matchtime=2
 
 set laststatus=2
 "set ruler
-"set cursorline
-set cursorcolumn
-set hlsearch
+set cursorline
+"set cursorcolumn
+set hlsearch  
 
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
@@ -100,7 +100,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'majutsushi/tagbar'
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 
 filetype plugin  indent on

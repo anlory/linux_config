@@ -28,8 +28,8 @@ set matchtime=2
 set laststatus=2
 "set ruler
 "set cursorline
-set cursorcolumn
-set hlsearch
+"set cursorcolumn
+set hlsearch  
 
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
@@ -68,12 +68,12 @@ set wildmenu
 
 set gcr=a:block-blinkon0
 
-set guioptions -=l
-set guioptions -=L
-set guioptions -=r
-set guioptions -=R
-set guioptions -=m
-set guioptions -=T
+"set guioptions -=l
+"set guioptions -=L
+"set guioptions -=r
+"set guioptions -=R
+"set guioptions -=m
+"set guioptions -=T
 
 
 set foldmethod=indent
@@ -83,7 +83,7 @@ set nofoldenable
 
 :hi linenr ctermfg= grey
 "set line num clolor 
-set nuw=1
+"set nuw=1
 "clear blank before line num
 
 
@@ -100,7 +100,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'majutsushi/tagbar'
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 
 filetype plugin  indent on
